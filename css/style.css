@@ -1,0 +1,264 @@
+
+*{
+  box-sizing: border-box;
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 62.5%;
+}
+
+main{
+  background-image: url(../pic/lake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(113, 27, 130, 0.2);
+  opacity: 0.9;
+  height: 100vh;
+  padding: 0;
+  margin: 0;  
+
+}
+
+.secIntr{
+  background-image: url(../bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0;  
+
+
+}
+
+.hidden{
+  display: none;
+}
+
+.secGame{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(113, 27, 130, 0.2);
+
+}
+
+.secGame h1{
+  font-size: 5rem;
+  color: white;
+  margin-top: 4%;
+  
+}
+
+.secGame h2{
+  font-size: 4rem;
+  color: white;
+  margin-top: 3%;
+
+}
+
+.secGame .h2Tab{
+  font-size: 4rem;
+  color: white;
+  margin-top: 15%;
+}
+
+.secGame p {
+  font-size: 2rem;
+  color: white;
+  margin-top: 5%;
+}
+
+.tabScor{
+border: .1rem solid black;
+height: 5rem;
+width: 100%;
+margin-top: 25%;
+
+}
+
+
+.secGame td{
+
+  font-size: 3rem;
+  color: white;
+}
+
+.secGame th{
+  font-size: 3rem;
+  color: red;
+}
+
+.secButt{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+button{
+  font-size: 1rem;
+  height: 5rem;
+  width: 30%;
+}
+
+button:hover{
+  background-color: rgb(171, 216, 87);
+}
+
+.secBeg{
+  display: flex;
+  flex-direction: row-reverse;
+ 
+  
+}
+.imgOri{
+  height: 20rem;
+}
+
+.secPlay{
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.secPlay h1:hover{
+  background-color: rgb(46, 196, 176);
+}
+
+.secPlay h1{
+  font-size: 5rem;;
+  color: white;
+  font-family: 'Yusei Magic', sans-serif;
+  border: .1rem solid white;
+  border-radius: 10%;
+  padding: 2%;
+  width: 50%;
+  
+}
+
+.divStat{
+  font-size: 4rem;
+  color: white;
+  width: 30%;
+  height: 5rem;
+  margin-top:1%;
+}
+
+@media only screen and (max-width: 42rem){
+
+  .secPlay{
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+  
+  }
+
+  .secGame h1{
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 4%;
+    
+  }
+  
+  .secGame h2{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 10%;
+
+  }
+  
+  .secGame .h2Tab{
+    font-size: 2rem;
+    color: white;
+    margin-top: 15%;
+  }
+  
+  .secGame p {
+    font-size: 2rem;
+    color: white;
+    margin-top: 10%;
+  }
+
+  .tabScor{
+    border: .1rem solid black;
+    height: 5rem;
+    width: 100%;
+    margin-top: 50%;
+    
+    }
+
+  .secGame td{
+
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .secGame th{
+    font-size: 2rem;
+    color: red;
+  }
+
+  .secButt{
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 42rem) and (max-width: 80rem){
+
+  .secPlay{
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+  
+  }
+
+  .secGame h1{
+    font-size: 3rem;
+    color: white;
+    margin-top: 4%;
+    
+  }
+  
+  .secGame h2{
+    font-size: 2rem;
+    color: white;
+    margin-top: 3%;
+  
+  }
+  
+  .secGame .h2Tab{
+    font-size: 2rem;
+    color: white;
+    margin-top: 15%;
+  }
+  
+  .secGame p {
+    font-size: 2rem;
+    color: white;
+    margin-top: 5%;
+  }
+
+  .secGame td{
+
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .secGame th{
+    font-size: 2rem;
+    color: red;
+  }
+}
+
+
+
